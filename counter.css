@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #457fca;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5691c8, #457fca);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5691c8, #457fca); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15vh;
+}
+
+h1{
+    color: var(--dark);
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+.counter{
+    background-color: black;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: whitesmoke;
+    min-width: 30vw;
+    width: fit-content;
+    height: 28vh;
+}
+
+.counter-value {
+    font-size: 6rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.counter-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.save{
+    margin-top: 3vh;
+}
+
+button {
+    appearance: none;
+    background: none;
+    border: none;
+    outline: none;
+
+    color: var(--primary);
+    font-size: 1.3rem;
+    cursor: pointer;
+
+    transition: 0.4s ease-out;
+}
+
+button:hover{
+    font-size: 1.5rem;
+}
